@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <title>Bajra Automobiles</title>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+      <link rel="icon" href="img/favicon.png" type="image/x-icon"/>
+      <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"><img src="img/logo.png" style="width: 25%;"></a>
+                <ul id="nav-mobile" class="section table-of-contents navcontent right hide-on-med-and-down">
+                <li><a href="#home" class="navtext mar">Outlets</a></li>
+                <li><a href="#about" class="navtext mar">About Us</a></li>
+                <li><a href="#services" class="navtext mar">Services</a></li>
+                <li><a href="#products" class="navtext mar">Products</a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div id="home" class="section scrollspy">
+                    <div class="carousel carousel-slider" data-indicators="true" >
+                        <a class="carousel-item" href="#one!">
+                            <span class="slidertext">First Slider</span>
+                            <img src="img/1.jpg">
+                        </a>
+                        <a class="carousel-item" href="#two!"><img src="img/2.jpg"></a>
+                        <a class="carousel-item" href="#three!"><img src="img/3.jpg"></a>
+                        <a class="carousel-item" href="#four!"><img src="img/4.jpg"></a>
+                    </div>
+                </div>
+            
+                <div id="about" class="section scrollspy red darken-3" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
+                    <div class="row" >
+                        <div class="col l12 s12 m12 center-align" >
+                            <h5 class="text">About Us</h5>
+                            <blockquote>
+                                    <span class="text">Bajra Automobiles was established in 2009 as one of the authorized dealer 
+                                        of Honda 2 wheelers in Nepal. Our prime objective is to increase Honda 2 wheeler sales with main 
+                                        focus on customer service and satisfaction. Over the years, Bajra Automobiles has been the number
+                                         1 Honda Dealer as one of the best seller of Honda 2 Wheelers in Nepal and are confident that it 
+                                         will continue as time goes on with dedicated staffs, multiple outlets around Kathmandu and our 
+                                         special services. Keeping our valuable customers in mind, we have been providing services such as
+                                          bike finance, exchange and insurance as required. 
+                                    </span>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="services" class="section scrollspy">
+                    <p>Content </p>
+                </div>
+                <div id="products" class="section scrollspy">
+                    <p>Content </p>
+                </div>
+                </div>
+        </div>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
+      <script type="text/javascript" src="js/materialize.js"></script>
+      <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+      <script>
+        $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
+        });
+
+        $('.carousel.carousel-slider').carousel({fullWidth: true});
+
+        AOS.init();
+        </script>
+    </body>
+  </html>

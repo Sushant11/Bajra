@@ -1,0 +1,19 @@
+.navtext{
+    color:#dc0000;
+}
+.mar{
+    margin:10px;
+}
+.navcontent{
+    padding-top: 0rem;
+}
+.slidertext{
+    position: absolute;
+    margin: 15px;
+    float: left;
+    color:white;
+    font-size: 30px;
+}
+.text{
+    color:white;
+}
