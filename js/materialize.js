@@ -4228,7 +4228,7 @@ if (Vel) {
   $.scrollSpy = function (selector, options) {
     var defaults = {
       throttle: 100,
-      scrollOffset:55, // offset - 200 allows elements near bottom of page to scroll
+      scrollOffset:66, // offset - 200 allows elements near bottom of page to scroll
       activeClass: 'active',
       getActiveElement: function (id) {
         return 'a[href="#' + id + '"]';
