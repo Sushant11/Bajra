@@ -19,10 +19,13 @@
 }
 .slidertext{
     position: absolute;
-    margin: 15px;
-    float: left;
-    color:white;
-    font-size: 30px;
+    margin: 5%;
+    color: white;
+    bottom: 5%;
+    padding: 10px;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 4px 5px 20px 0px #000000;
 }
 .text{
     color:white;

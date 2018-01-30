@@ -33,12 +33,30 @@
             <div id="home" class="section scrollspy active">
                 <div class="carousel carousel-slider" data-indicators="true" >
                     <a class="carousel-item " href="#one!">
-                        <span class="slidertext">First Slider</span>
+                        <span class="slidertext hoverable">
+                            <b>Location</b>: Maharajgunj<br>
+                            <b>Contact</b>: 01-4721364/01-4720326
+                        </span>
                         <img class=" view" src="img/1.jpg">
                     </a>
-                    <a class="carousel-item" href="#two!"><img class="view" src="img/2.jpg"></a>
-                    <a class="carousel-item" href="#three!"><img class=" view" src="img/3.jpg"></a>
-                    <a class="carousel-item" href="#four!"><img class="view" src="img/4.jpg"></a>
+                    <a class="carousel-item" href="#two!">
+                            <span class="slidertext hoverable">
+                                    <b>Location</b>: BudanilKantha<br>
+                                    <b>Contact</b>: 01-4372000
+                                </span>
+                        <img class="view" src="img/2.jpg"></a>
+                    <a class="carousel-item" href="#three!">
+                            <span class="slidertext hoverable">
+                                    <b>Location</b>: Kalanki<br>
+                                    <b>Contact</b>: 01-4279429/01-4277201
+                                </span>
+                        <img class=" view" src="img/3.jpg"></a>
+                    <a class="carousel-item" href="#four!">
+                            <span class="slidertext hoverable">
+                                    <b>Location</b>: Pharping<br>
+                                    <b>Contact</b>: 01-4710686/01-4710687
+                                </span>
+                        <img class="view" src="img/4.jpg"></a>
                 </div>
             </div>
         </div>
@@ -67,7 +85,7 @@
                             <h2 class="center"><i class="medium material-icons">settings</i></h2>
                             <h5 class="center">Spare Parts</h5>
                 
-                            <p class="light center-align">Get Genuine Honda bike parts as required.</p>
+                            <p class="light center-align">Get genuine Honda bike parts as required with well trained mechanics for installation.</p>
                             </div>
                         </div>
 
@@ -77,7 +95,7 @@
                             <h5 class="center">Finance</h5>
                 
                             <p class="light center-align">
-                            Installment service with certain percentage in advance.</p>
+                            Installment service in payment with certain percentage in advance.</p>
                         </div>
                         </div>
             
@@ -176,6 +194,8 @@
       <script type="text/javascript" src="js/script.js"></script>
       <script type="text/javascript" src="js/materialize.js"></script>
       <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+      <script src="/node_modules/jquery/dist/jquery.js"></script>
+      <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
       <script>
         $(document).ready(function(){
             $('.scrollspy').scrollSpy();
@@ -185,7 +205,15 @@
 
         $(document).ready(function(){
         $('.carousel').carousel();
+
+        setInterval(function(){
+            $('.carousel').carousel('next');
+        },5000)
+
+
         });
+
+        
         AOS.init();
 
         </script>
