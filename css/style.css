@@ -2,11 +2,15 @@
     color:#dc0000;
     padding: 5px;
 }
+.nvbar{
+    position: absolute;
+    z-index: 1;
+}
 .mar{
     margin:10px;
 }
 .view{
-    height:95vh;
+    height:100vh;
 }
 .prodview{
     height:30vh;
