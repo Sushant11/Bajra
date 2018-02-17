@@ -6,6 +6,9 @@
     position: absolute;
     z-index: 1;
 }
+.nav-up {
+    top: -64px;
+}
 .mar{
     margin:10px;
 }
@@ -98,4 +101,12 @@
 .blur{
     background: rgba(0, 0, 0, 0.6);
     box-shadow: 4px 5px 20px 0px #000000;
+}
+.topbtn{
+	padding:5px; 
+	text-align:center;
+	position:fixed;
+	right: 20px;
+    bottom: 20px;
+    display:none;
 }
