@@ -15,7 +15,7 @@
         <!-- NAVBAR -->
         <div class="nvbar">
             <div class="navbar-fixed">
-                <nav>
+                <nav id="navcolr" >
                     <div class="nav-wrapper">
                         <a href="#" class="brand-logo"><img src="img/logo1.png" style="width:28%;margin: 2px 0px 0px 9px;"></a>
                         <ul id="nav-mobile" class="section table-of-contents navcontent right hide-on-med-and-down">
@@ -216,8 +216,17 @@
             $('.carousel').carousel('next');
         },8000);
 
-        });
 
+        });
+        window.onscroll = function() {navcolr()};
+    function navcolr() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        document.getElementById("navcolr").style.backgroundColor = "white";
+
+    } else {
+        document.getElementById("navcolr").style.backgroundColor = "transparent";
+    }
+    }
         
         AOS.init();
 
@@ -277,6 +286,8 @@
         });
         
     });
+
+   
         </script>
         
         
