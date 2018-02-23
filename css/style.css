@@ -111,6 +111,7 @@
     float:right;
     color:#dc0000;
 }
+
 #navbar {
     position: fixed;
     top: -65px;
@@ -118,3 +119,4 @@
     display:block;
     transition: top 0.8s;
   }
+
