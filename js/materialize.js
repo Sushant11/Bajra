@@ -4234,6 +4234,7 @@ if (Vel) {
         return 'a[href="#' + id + '"]';
       }
     };
+    
     options = $.extend(defaults, options);
 
     var visible = [];

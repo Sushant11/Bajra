@@ -4249,7 +4249,7 @@ nav i.material-icons {
 nav .nav-wrapper {
   position: relative;
   height: 100%;
-  background-color: transparent;
+  background-color: white;
 }
 
 @media only screen and (min-width: 993px) {
@@ -4259,7 +4259,7 @@ nav .nav-wrapper {
 }
 
 nav .button-collapse {
-  float: left;
+  float: right;
   position: relative;
   z-index: 1;
   height: 56px;
@@ -4287,7 +4287,7 @@ nav .brand-logo.center {
 
 @media only screen and (max-width: 992px) {
   nav .brand-logo {
-    left: 50%;
+    left: 35%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
@@ -7397,7 +7397,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav li > a {
-  color: rgba(0, 0, 0, 0.87);
+  color: #dc0000;
   display: block;
   font-size: 14px;
   font-weight: 500;
