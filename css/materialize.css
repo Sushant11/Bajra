@@ -2660,7 +2660,7 @@ i.small {
 
 i.medium {
   font-size: 4rem;
-  color:#958353;
+  color:#cc0001;
 }
 
 i.large {
@@ -7329,7 +7329,7 @@ input[type=range]:focus::-ms-fill-upper {
 .table-of-contents a {
   display: inline-block;
   font-weight: 500;
-  color: red;
+  color: #cc0001;
   font-size: 17px;
   padding-left: 20px;
   /* height: 1.5rem; */
@@ -8255,7 +8255,7 @@ input[type=range]:focus::-ms-fill-upper {
   text-align: center;
   left: 0;
   right: 0;
-  bottom: 20px;
+  bottom: 0px;
   margin: 0;
 }
 
