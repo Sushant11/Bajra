@@ -1,287 +1,398 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-        <title>Bajra Automobiles</title>
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
-      <link rel="icon" href="img/bajraicon.png" type="image/x-icon"/>
-      <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+<html>
 
-    <body
-            
-        <!-- NAVBAR -->
-        <ul id="slide-out" class="side-nav">
-            <a href="#" class="brand-logo"><img src="img/logo1.png" style="width: 35%;margin: 15px 0px 0px 25px;"></a>
-            <li><a href="#home" class="navtext mar">Outlets</a></li>
-            <li><a href="#services" class="navtext mar">Services</a></li>
-            <li><a href="#about" class="navtext mar">About Us</a></li>
-            <li><a href="#products" class="navtext mar">Products</a></li>
-          </ul>
+<head>
+    <title>Bajra Automobiles</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
+    <link rel="icon" href="img/bajraicon.png" type="image/x-icon" />
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<div id="overlay">
+    <div class="center-align" style="margin-top:15%">
+        <img src="img/logo1.png" style="width:10%;">
+    </div>
+    <div id="progstat"></div>
+    <div id="progress"></div>
+</div>
 
-        <div class="nvbar" id="navbar" >
-            <div class="navbar-fixed">
-                <nav id="navcolr" >
-                    <div class="nav-wrapper ">
-                        <a href="#" class="brand-logo"><img src="img/logo1.png" style="width:28%;margin: 2px 0px 0px 9px;"></a>
-                        <ul id="nav-mobile" class="section table-of-contents navcontent right hide-on-med-and-down">
-                        <li><a href="#home" class="navtext mar">Outlets</a></li>
-                        <li><a href="#services" class="navtext mar">Services</a></li>
-                        <li><a href="#about" class="navtext mar">About Us</a></li>
-                        <li><a href="#products" class="navtext mar">Products</a></li>
-                        </ul>
-                        <a href="#" data-activates="slide-out" class="button-collapse show-on-medium-and-down menu"><i class="material-icons">menu</i></a>
-                    </div>
-                </nav>
+<ul id="slide-out" class="side-nav">
+    <a href="#" class="brand-logo">
+        <img src="img/logo1.png" style="width: 35%;margin: 15px 0px 0px 25px;">
+    </a>
+    <li>
+        <a href="#home" class="navtext mar">Outlets</a>
+    </li>
+    <li>
+        <a href="#services" class="navtext mar">Services</a>
+    </li>
+    <li>
+        <a href="#about" class="navtext mar">About Us</a>
+    </li>
+    <li>
+        <a href="#products" class="navtext mar">Products</a>
+    </li>
+</ul>
+
+<div class="nvbar" id="navbar">
+    <div class="navbar-fixed">
+        <nav id="navcolr">
+            <div class="nav-wrapper ">
+                <a href="#" class="brand-logo">
+                    <img src="img/logo1.png" style="width:28%;margin: 2px 0px 0px 9px;">
+                </a>
+                <ul id="nav-mobile" class="section table-of-contents navcontent right hide-on-med-and-down">
+                    <li>
+                        <a href="#home" class="navtext mar">Outlets</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="navtext mar">Services</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="navtext mar">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#products" class="navtext mar">Products</a>
+                    </li>
+                </ul>
+                <a href="#" data-activates="slide-out" class="button-collapse show-on-medium-and-down menu">
+                    <i class="material-icons">menu</i>
+                </a>
             </div>
-        </div>
-        <!-- ....................... -->
-        
-        
-        <!-- SLIDER -->
-        <div class="col s12 m12 l12">
-                <div class="scroll center-align">
-                        <section id="section05" class="demo">
-                                <a><span></span></a>
-                                <h6 style="color:white;">Scroll Down</h6>
-                              </section>
-                </div>
-            <div id="home" class="section scrollspy active">
-                <div class="carousel carousel-slider" data-indicators="true" >
-                    <a class="carousel-item " href="#one!">
-                        <span class="slidertext hoverable"  data-aos="zoom-in-right" data-aos-once="false" data-aos-duration="1600">
-                            <b>Location</b>: Maharajgunj<br>
-                            <b>Contact</b>: 01-4721364/01-4720326
-                        </span>
-                        <img class=" view" src="img/1.jpg">
-                    </a>
-                    <a class="carousel-item" href="#two!">
-                            <span class="slidertext hoverable" data-aos="zoom-in-right" data-aos-once="false" data-aos-duration="1600">
-                                    <b>Location</b>: BudanilKantha<br>
-                                    <b>Contact</b>: 01-4372000
-                                </span>
-                        <img class="view" src="img/2.jpg"></a>
-                    <a class="carousel-item" href="#three!">
-                            <span class="slidertext hoverable">
-                                    <b>Location</b>: Kalanki<br>
-                                    <b>Contact</b>: 01-4279429/01-4277201
-                                </span>
-                        <img class=" view" src="img/3.jpg"></a>
-                    <a class="carousel-item" href="#four!">
-                            <span class="slidertext hoverable">
-                                    <b>Location</b>: Pharping<br>
-                                    <b>Contact</b>: 01-4710686/01-4710687
-                                </span>
-                        <img class="view" src="img/4.jpg"></a>
-                </div>
-            </div>
-        </div>
-        <!-- ........................ -->
+        </nav>
+    </div>
+</div>
+<!-- ....................... -->
 
-        <div class="honda ">
-                <!-- SERVICES -->
-                <div class="valign-wrapper">
-                    <div class="row">
-                        <div class="col l12 s12 m12">
-                <div id="services" class="section scrollspy view" >
-                    
-                    <h4 class=" center-align" style="padding-bottom: 40px;padding-top: 40px;"><span class="contenthead card">Our Services</span></h4>
+
+<!-- SLIDER -->
+<div class="col s12 m12 l12">
+    <div class="scroll center-align">
+        <section id="section05" class="demo">
+            <a>
+                <span></span>
+            </a>
+            <h6 style="color:white;">Scroll Down</h6>
+        </section>
+    </div>
+    <div id="home" class="section scrollspy active">
+        <div class="carousel carousel-slider" data-indicators="true">
+            <a class="carousel-item " href="#one!">
+                <span class="slidertext hoverable" data-aos="zoom-in-right" data-aos-once="false" data-aos-duration="1600">
+                    <b>Location</b>: Maharajgunj
+                    <br>
+                    <b>Contact</b>: 01-4721364/01-4720326
+                </span>
+                <img class=" view" src="img/1.jpg">
+            </a>
+            <a class="carousel-item" href="#two!">
+                <span class="slidertext hoverable" data-aos="zoom-in-right" data-aos-once="false" data-aos-duration="1600">
+                    <b>Location</b>: BudanilKantha
+                    <br>
+                    <b>Contact</b>: 01-4372000
+                </span>
+                <img class="view" src="img/2.jpg">
+            </a>
+            <a class="carousel-item" href="#three!">
+                <span class="slidertext hoverable">
+                    <b>Location</b>: Kalanki
+                    <br>
+                    <b>Contact</b>: 01-4279429/01-4277201
+                </span>
+                <img class=" view" src="img/3.jpg">
+            </a>
+            <a class="carousel-item" href="#four!">
+                <span class="slidertext hoverable">
+                    <b>Location</b>: Pharping
+                    <br>
+                    <b>Contact</b>: 01-4710686/01-4710687
+                </span>
+                <img class="view" src="img/4.jpg">
+            </a>
+        </div>
+    </div>
+</div>
+<!-- ........................ -->
+<div class="honda ">
+    <!-- SERVICES -->
+    <div class="valign-wrapper">
+        <div class="row">
+            <div class="col l12 s12 m12">
+                <div id="services" class="section scrollspy view">
+
+                    <h4 class=" center-align" style="padding-bottom: 40px;padding-top: 40px;">
+                        <span class="contenthead card">Our Services</span>
+                    </h4>
                     <div class="row">
                         <div class="col s12 m4 l4 card curve hoverable" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1500">
                             <div class="icon-block">
-                            <h2 class="center"><i class="medium material-icons">flash_on</i></h2>
-                            <h5 class="center">Exchange</h5>
-                
-                            <p class="light center-align">Exchange your old bike with a brand new deal on a new bike.</p>
+                                <h2 class="center">
+                                    <i class="medium material-icons">flash_on</i>
+                                </h2>
+                                <h5 class="center">Exchange</h5>
+
+                                <p class="light center-align">Exchange your old bike with a brand new deal on a new bike.</p>
                             </div>
                         </div>
-                
+
                         <div class="col s12 m4 l4 card curve hoverable" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1600">
                             <div class="icon-block">
-                            <h2 class="center"><i class="medium material-icons">settings</i></h2>
-                            <h5 class="center">Spare Parts</h5>
-                
-                            <p class="light center-align">Get genuine Honda bike parts as required with well trained mechanics for installation.</p>
+                                <h2 class="center">
+                                    <i class="medium material-icons">settings</i>
+                                </h2>
+                                <h5 class="center">Spare Parts</h5>
+
+                                <p class="light center-align">Get genuine Honda bike parts as required with well trained mechanics for installation.</p>
                             </div>
                         </div>
 
                         <div class="col s12 m4 l4 card curve hoverable" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1700">
                             <div class="icon-block">
-                            <h2 class="center"><i class="medium material-icons">group</i></h2>
-                            <h5 class="center">Finance</h5>
-                
-                            <p class="light center-align">
-                            Installment service in payment with certain percentage in advance.</p>
+                                <h2 class="center">
+                                    <i class="medium material-icons">group</i>
+                                </h2>
+                                <h5 class="center">Finance</h5>
+
+                                <p class="light center-align">
+                                    Installment service in payment with certain percentage in advance.</p>
+                            </div>
                         </div>
-                        </div>
-            
+
                     </div>
-        
+
                     <div class="row">
                         <div class="col s12 m6 l6 card curve hoverable" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1800">
                             <div class="icon-block">
-                                <h2 class="center"><i class="medium material-icons">group</i></h2>
+                                <h2 class="center">
+                                    <i class="medium material-icons">group</i>
+                                </h2>
                                 <h5 class="center">Servicing</h5>
-                    
+
                                 <p class="light center-align">Free bike servicing for fixed time with genuine Honda bike oil. </p>
                             </div>
                         </div>
-                        
+
                         <div class="col s12 m6 l6 card curve hoverable" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1900">
                             <div class="icon-block">
-                                <h2 class="center"><i class="medium material-icons">settings</i></h2>
+                                <h2 class="center">
+                                    <i class="medium material-icons">settings</i>
+                                </h2>
                                 <h5 class="center">Insurance</h5>
-                    
+
                                 <p class="light center-align">Standard bike insurance service which will aid you in unfortunate situations.</p>
                             </div>
                         </div>
-        
+
                     </div>
-                </div>
                 </div>
             </div>
         </div>
-                <!-- ........................ -->
-            </div>
+    </div>
+    <!-- ........................ -->
+</div>
 
-        <!-- ABOUT -->
-        <div id="about" class="section scrollspy view valign-wrapper aboutimg ">
+<!-- ABOUT -->
+<div id="about" class="section scrollspy view valign-wrapper aboutimg ">
+    <div class="row">
+        <div class="col l6 s12 m12 center-align blur" data-aos="fade-right" data-aos-once="false" data-aos-duration="2000">
+            <!-- <h5 class="goldtext ">About Us</h5> -->
+            <blockquote>
+                <h3 class="center-align" style="color:white;">About Us</h3>
+                <span class="goldtext">Bajra Automobiles was established in 2009 as one of the authorized dealer of Honda 2 wheelers in Nepal. Our
+                    prime objective is to increase Honda 2 wheeler sales with main focus on customer service and satisfaction.
+                    Over the years, Bajra Automobiles has been the number 1 Honda Dealer as one of the best seller of Honda
+                    2 Wheelers in Nepal and are confident that it will continue as time goes on with dedicated staffs, multiple
+                    outlets around Kathmandu and our special services. Keeping our valuable customers in mind, we have been
+                    providing services such as bike finance, exchange and insurance as required.
+                </span>
+            </blockquote>
+        </div>
+    </div>
+</div>
+<!-- ...........................  -->
+
+<div id="products" class="section scrollspy prodview">
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <h4 class=" center-align head">
+                <span class="contenthead card">Our Products</span>
+            </h4>
+            <div class="carousel" style="height:200px !important;">
+                <a class="carousel-item" href="#one!">
+                    <img src="img/hornet.png">
+                    <span class="bikename">CB Hornet 160</span>
+                </a>
+                <a class="carousel-item" href="#two!">
+                    <img src="img/imperial.png">
+                    <span class="bikename">Honda Imperaial</span>
+                </a>
+                <a class="carousel-item" href="#three!">
+                    <img src="img/navi.png">
+                    <span class="bikename">Honda Navi</span>
+                </a>
+                <a class="carousel-item" href="#four!">
+                    <img src="img/cd.png">
+                    <span class="bikename">HONDA CD 110 DREAM</span>
+                </a>
+                <a class="carousel-item" href="#five!">
+                    <img src="img/aviator.png">
+                    <span class="bikename">Honda Avaitor</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <a href="#" class="topbtn">
+            <i class="small material-icons" style="color:#dc0000">keyboard_arrow_up</i>
+        </a>
+    </div>
+    <!-- ................. -->
+
+
+    <footer class="page-footer">
+        <div class="container">
             <div class="row">
-                <div class="col l6 s12 m12 center-align blur" data-aos="fade-right" data-aos-once="false" data-aos-duration="2000" >
-                    <!-- <h5 class="goldtext ">About Us</h5> -->
-                    <blockquote>
-                        <h3 class="center-align" style="color:white;">About Us</h3>
-                            <span class="goldtext">Bajra Automobiles was established in 2009 as one of the authorized dealer 
-                                of Honda 2 wheelers in Nepal. Our prime objective is to increase Honda 2 wheeler sales with main 
-                                focus on customer service and satisfaction. Over the years, Bajra Automobiles has been the number
-                                1 Honda Dealer as one of the best seller of Honda 2 Wheelers in Nepal and are confident that it 
-                                will continue as time goes on with dedicated staffs, multiple outlets around Kathmandu and our 
-                                special services. Keeping our valuable customers in mind, we have been providing services such as
-                                bike finance, exchange and insurance as required. 
-                            </span>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-        <!-- ...........................  -->
-
-        <div id="products" class="section scrollspy prodview" >
-                <div class="row">
-                        <div class="col s12 m12 l12">
-                    <h4 class=" center-align head"><span class="contenthead card">Our Products</span></h4>
-                    <div class="carousel" style="height:200px !important;">
-                            <a class="carousel-item" href="#one!"><img src="img/hornet.png"><span class="bikename">CB Hornet 160</span></a>
-                            <a class="carousel-item" href="#two!"><img src="img/imperial.png"><span class="bikename">Honda Imperaial</span></a>
-                            <a class="carousel-item" href="#three!"><img src="img/navi.png"><span class="bikename">Honda Navi</span></a>
-                            <a class="carousel-item" href="#four!"><img src="img/cd.png"><span class="bikename">HONDA CD 110 DREAM</span></a>
-                            <a class="carousel-item" href="#five!"><img src="img/aviator.png"><span class="bikename">Honda Avaitor</span></a>
-                    </div>
-                    </div>
-        </div>
-
-        <div >
-            <a href="#" class="topbtn"><i class="small material-icons" style="color:#dc0000">keyboard_arrow_up</i></a>
-        </div>
-        <!-- ................. -->
-
-
-        <footer class="page-footer">
-            <div class="container">
-              <div class="row">
                 <div class="col l6 s12">
-                  <h5 class="white-text">Bajra Automobiles</h5>
-                  <p class="grey-text text-lighten-4"><img src="img/logo1.png" style="width:40%;width: 40%;
-                    padding: 10px;
-                    border-radius: 20px;
-                    background-color: white;"></p>
+                    <h5 class="white-text">Bajra Automobiles</h5>
+                    <p class="grey-text text-lighten-4">
+                        <img src="img/logo1.png" style="width:40%;width: 40%;
+                                padding: 10px;
+                                border-radius: 20px;
+                                background-color: white;">
+                    </p>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                  <h5 class="white-text">Social Links</h5>
-                  <ul style="display: inline-flex;">
-                    <li><a href="https://www.facebook.com/Bajra-automobiles-PLtd-1385535045086537/" target="_blank">
-                        <img src="img/fb.png" style="height:50px;width:50px;"> </a></li>
-                    <li><a href="!">
-                        <img src="img/insta.png" style="height:50px;width:50px;"> </a></li>
-                  </ul>
+                    <h5 class="white-text">Social Links</h5>
+                    <ul style="display: inline-flex;">
+                        <li>
+                            <a href="https://www.facebook.com/Bajra-automobiles-PLtd-1385535045086537/" target="_blank">
+                                <img src="img/fb.png" style="height:50px;width:50px;"> </a>
+                        </li>
+                        <li>
+                            <a href="!">
+                                <img src="img/insta.png" style="height:50px;width:50px;"> </a>
+                        </li>
+                    </ul>
                 </div>
-              </div>
             </div>
-            <div class="footer-copyright">
-              <div class="container center-align">
-              © 2018 Bajra Automobiles.
-              <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
-              </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center-align">
+                © 2018 Bajra Automobiles.
+                <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
             </div>
-          </footer>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/script.js"></script>
-      <script type="text/javascript" src="js/materialize.js"></script>
-      <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-      <script src="/node_modules/jquery/dist/jquery.js"></script>
-      <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
-      <script>
-        $(document).ready(function(){
-            $('.scrollspy').scrollSpy();
-        });
+        </div>
+    </footer>
 
-        $('.carousel.carousel-slider').carousel({fullWidth: true});
+    <body <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/materialize.js"></script>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+        <script src="/node_modules/jquery/dist/jquery.js"></script>
+        <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+        <script>
+            (function () {
+                function id(v) { return document.getElementById(v); }
+                function loadbar() {
+                    var ovrl = id("overlay"),
+                        prog = id("progress"),
+                        stat = id("progstat"),
+                        img = document.images,
+                        c = 0,
+                        tot = img.length;
+                    if (tot == 0) return doneLoading();
 
-        $(document).ready(function(){
-        $('.carousel').carousel();
-
-        setInterval(function(){
-            $('.carousel').carousel('next');
-        },8000);
-
-
-        });
-    //     window.onscroll = function() {navcolr()};
-    // function navcolr() {
-    // if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-    //     document.getElementById("navcolr").style.backgroundColor = "white";
-
-    // } else {
-    //     document.getElementById("navcolr").style.backgroundColor = "transparent";
-    // }
-    // }
-
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-            document.getElementById("navbar").style.top = "0";
-        } else {
-            document.getElementById("navbar").style.top = "-100px";
-        }
-    }
-        
-        AOS.init();
-        $(document).ready(function(){
-	
-        //Check to see if the window is top if not then display button
-        $(window).scroll(function(){
-            if ($(this).scrollTop() > 100) {
-                $('.topbtn').fadeIn();
-            } else {
-                $('.topbtn').fadeOut();
-            }
-        });
-        
-        //Click event to scroll to top
-        $('.topbtn').click(function(){
-            $('html, body').animate({scrollTop : 0},800);
-            return false;
-        });
-        
-    });
-
-    $(".button-collapse").sideNav();
-   
+                    function imgLoaded() {
+                        c += 1;
+                        var perc = ((100 / tot * c) << 0) + "%";
+                        prog.style.width = perc;
+                        stat.innerHTML = "Loading " + perc;
+                        if (c === tot) return doneLoading();
+                    }
+                    function doneLoading() {
+                        ovrl.style.opacity = 0;
+                        setTimeout(function () {
+                            ovrl.style.display = "none";
+                        }, 1200);
+                    }
+                    for (var i = 0; i < tot; i++) {
+                        var tImg = new Image();
+                        tImg.onload = imgLoaded;
+                        tImg.onerror = imgLoaded;
+                        tImg.src = img[i].src;
+                    }
+                }
+                document.addEventListener('DOMContentLoaded', loadbar, false);
+            }());
         </script>
-        
-        
+        <script>
+            $(document).ready(function () {
+                $('.scrollspy').scrollSpy();
+            });
+
+            $('.carousel.carousel-slider').carousel({ fullWidth: true });
+
+            $(document).ready(function () {
+                $('.carousel').carousel();
+
+                setInterval(function () {
+                    $('.carousel').carousel('next');
+                }, 8000);
+
+
+            });
+            //     window.onscroll = function() {navcolr()};
+            // function navcolr() {
+            // if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            //     document.getElementById("navcolr").style.backgroundColor = "white";
+
+            // } else {
+            //     document.getElementById("navcolr").style.backgroundColor = "transparent";
+            // }
+            // }
+
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+                    document.getElementById("navbar").style.top = "0";
+                } else {
+                    document.getElementById("navbar").style.top = "-100px";
+                }
+            }
+
+            AOS.init();
+            $(document).ready(function () {
+
+                //Check to see if the window is top if not then display button
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100) {
+                        $('.topbtn').fadeIn();
+                    } else {
+                        $('.topbtn').fadeOut();
+                    }
+                });
+
+                //Click event to scroll to top
+                $('.topbtn').click(function () {
+                    $('html, body').animate({ scrollTop: 0 }, 800);
+                    return false;
+                });
+
+            });
+
+            $(".button-collapse").sideNav();
+
+            jQuery(window).load(function () {
+                jQuery('#overlay').fadeOut();
+            });
+
+
+        </script>
     </body>
+
 </html>
