@@ -4359,7 +4359,7 @@ nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.b
 }
 
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: none;
 }
 
 nav ul.left {
@@ -8247,7 +8247,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .carousel .carousel-item > img {
-  width: 100%;
+  width: 150%;
 }
 
 .carousel .indicators {

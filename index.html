@@ -8,11 +8,13 @@
     <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
     <link rel="icon" href="img/bajraicon.png" type="image/x-icon" />
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <div id="overlay">
-    <div class="center-align" style="margin-top:15%">
-        <img src="img/logo1.png" style="width:10%;">
+    <div class="center-align" style="margin-top:10%">
+        <img class="loadimg" src="img/logo1.png" style="width:20%;">
     </div>
     <div id="progstat"></div>
     <div id="progress"></div>
@@ -34,6 +36,11 @@
     <li>
         <a href="#products" class="navtext mar">Products</a>
     </li>
+    <a href="https://www.facebook.com/Bajra-automobiles-PLtd-1385535045086537/" target="_blank" style="margin-left:10px;">
+        <img src="img/fb.png" style="height:50px;width:50px;"> </a>
+    <a href="!">
+        <img src="img/insta.png" style="height:50px;width:50px;"> </a>
+                   
 </ul>
 
 <div class="nvbar" id="navbar">
@@ -44,11 +51,19 @@
                     <img src="img/logo1.png" style="width:28%;margin: 2px 0px 0px 9px;">
                 </a>
                 <ul id="nav-mobile" class="section table-of-contents navcontent right hide-on-med-and-down">
+                    <li class="social">
+                        <a href="https://www.facebook.com/Bajra-automobiles-PLtd-1385535045086537/" target="_blank">
+                            <img src="img/fb.png" style="height:50px;width:50px;"> </a>
+                    </li>
+                    <li class="social">
+                        <a href="!">
+                            <img src="img/insta.png" style="height:50px;width:50px;"> </a>
+                    </li>
                     <li>
                         <a href="#home" class="navtext mar">Outlets</a>
                     </li>
                     <li>
-                        <a href="#services" class="navtext mar">Services</a>
+                        <a href="#services" class="navtext mar">Services</a>D
                     </li>
                     <li>
                         <a href="#about" class="navtext mar">About Us</a>
@@ -85,7 +100,7 @@
                     <br>
                     <b>Contact</b>: 01-4721364/01-4720326
                 </span>
-                <img class=" view" src="img/1.jpg">
+                <img class="responsive-img view" src="img/1.jpg">
             </a>
             <a class="carousel-item" href="#two!">
                 <span class="slidertext hoverable" data-aos="zoom-in-right" data-aos-once="false" data-aos-duration="1600">
@@ -93,7 +108,7 @@
                     <br>
                     <b>Contact</b>: 01-4372000
                 </span>
-                <img class="view" src="img/2.jpg">
+                <img class="responsive-img view" src="img/2.jpg">
             </a>
             <a class="carousel-item" href="#three!">
                 <span class="slidertext hoverable">
@@ -101,7 +116,7 @@
                     <br>
                     <b>Contact</b>: 01-4279429/01-4277201
                 </span>
-                <img class=" view" src="img/3.jpg">
+                <img class="responsive-img view" src="img/3.jpg">
             </a>
             <a class="carousel-item" href="#four!">
                 <span class="slidertext hoverable">
@@ -109,7 +124,7 @@
                     <br>
                     <b>Contact</b>: 01-4710686/01-4710687
                 </span>
-                <img class="view" src="img/4.jpg">
+                <img class="responsive-img view" src="img/4.jpg">
             </a>
         </div>
     </div>
@@ -126,10 +141,10 @@
                         <span class="contenthead card">Our Services</span>
                     </h4>
                     <div class="row">
-                        <div class="col s12 m4 l4 card curve hoverable" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1500">
+                        <div class="col l3 s12 m4 card curve hoverable" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1500">
                             <div class="icon-block">
                                 <h2 class="center">
-                                    <i class="medium material-icons">flash_on</i>
+                                    <i class="medium material-icons">compare_arrows</i>
                                 </h2>
                                 <h5 class="center">Exchange</h5>
 
@@ -137,7 +152,7 @@
                             </div>
                         </div>
 
-                        <div class="col s12 m4 l4 card curve hoverable" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1600">
+                        <div class="col l4 s12 m4 card curve hoverable offset-l1" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1600">
                             <div class="icon-block">
                                 <h2 class="center">
                                     <i class="medium material-icons">settings</i>
@@ -148,10 +163,10 @@
                             </div>
                         </div>
 
-                        <div class="col s12 m4 l4 card curve hoverable" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1700">
+                        <div class="col l3 s12 m4 card curve hoverable offset-l1" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1700">
                             <div class="icon-block">
                                 <h2 class="center">
-                                    <i class="medium material-icons">group</i>
+                                    <i class="medium material-icons">attach_money</i>
                                 </h2>
                                 <h5 class="center">Finance</h5>
 
@@ -163,10 +178,10 @@
                     </div>
 
                     <div class="row">
-                        <div class="col s12 m6 l6 card curve hoverable" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1800">
+                        <div class="col s12 m4 l3 card curve hoverable offset-l2 offset-m2" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1800">
                             <div class="icon-block">
                                 <h2 class="center">
-                                    <i class="medium material-icons">group</i>
+                                    <i class="medium material-icons">autorenew</i>
                                 </h2>
                                 <h5 class="center">Servicing</h5>
 
@@ -174,14 +189,14 @@
                             </div>
                         </div>
 
-                        <div class="col s12 m6 l6 card curve hoverable" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1900">
+                        <div class="col s12 m4 l3 card curve hoverable offset-l2" data-aos="zoom-in" data-aos-once="true" data-aos-duration="1900">
                             <div class="icon-block">
                                 <h2 class="center">
-                                    <i class="medium material-icons">settings</i>
+                                    <i class="medium material-icons">favorite</i>
                                 </h2>
                                 <h5 class="center">Insurance</h5>
 
-                                <p class="light center-align">Standard bike insurance service which will aid you in unfortunate situations.</p>
+                                <p class="light center-align">Bike insurance service which will aid you in unfortunate situations.</p>
                             </div>
                         </div>
 
@@ -196,7 +211,7 @@
 <!-- ABOUT -->
 <div id="about" class="section scrollspy view valign-wrapper aboutimg ">
     <div class="row">
-        <div class="col l6 s12 m12 center-align blur" data-aos="fade-right" data-aos-once="false" data-aos-duration="2000">
+        <div class="col l5 s10 m10 center-align blur" data-aos="fade-right" data-aos-once="false" data-aos-duration="2000">
             <!-- <h5 class="goldtext ">About Us</h5> -->
             <blockquote>
                 <h3 class="center-align" style="color:white;">About Us</h3>
@@ -219,32 +234,59 @@
             <h4 class=" center-align head">
                 <span class="contenthead card">Our Products</span>
             </h4>
-            <div class="carousel" style="height:200px !important;">
-                <a class="carousel-item" href="#one!">
-                    <img src="img/hornet.png">
-                    <span class="bikename">CB Hornet 160</span>
-                </a>
-                <a class="carousel-item" href="#two!">
-                    <img src="img/imperial.png">
-                    <span class="bikename">Honda Imperaial</span>
-                </a>
-                <a class="carousel-item" href="#three!">
-                    <img src="img/navi.png">
-                    <span class="bikename">Honda Navi</span>
-                </a>
-                <a class="carousel-item" href="#four!">
-                    <img src="img/cd.png">
-                    <span class="bikename">HONDA CD 110 DREAM</span>
-                </a>
-                <a class="carousel-item" href="#five!">
-                    <img src="img/aviator.png">
-                    <span class="bikename">Honda Avaitor</span>
-                </a>
+            <!-- <div class="row" style="padding-top: 5%;">
+                <div class="col s12 m12 l6">
+                    <div class="carousel" style="height:200px !important;">
+                    <a class="carousel-item" href="#one!">
+                        <img src="img/hornet.png">
+                        <span class="bikename">CB Hornet 160</span>
+                    </a>
+                    <a class="carousel-item" href="#two!">
+                        <img src="img/imperial.png">
+                        <span class="bikename">Honda Imperaial</span>
+                    </a>
+                    <a class="carousel-item" href="#three!">
+                        <img src="img/navi.png">
+                        <span class="bikename">Honda Navi</span>
+                    </a>
+                    <a class="carousel-item" href="#four!">
+                        <img src="img/cd.png">
+                        <span class="bikename">HONDA CD 110 DREAM</span>
+                    </a>
+                    <a class="carousel-item" href="#five!">
+                        <img src="img/aviator.png">
+                        <span class="bikename">Honda Avaitor</span>
+                    </a>
+                    </div>
+                </div>
+                
+        </div> -->
+        <div class="owl-carousel owl-theme" style="margin-bottom: 10px;">
+                <div class="item">
+                    <h5 class="center-align"><span style="color:#dc0000;font-family: fantasy;">Honda Hornet</span></h5>
+                    <img src="img/hornet.png"></div>
+                <div class="item">
+                        <h5 class="center-align"><span style="color:#dc0000;font-family: fantasy;">Honda Hornet</span></h5>
+                     <img src="img/hornet.png"></div>
+                <div class="item">
+                    <h5 class="center-align"><span style="color:#dc0000;font-family: fantasy;">Honda Hornet</span></h5>
+                    <img src="img/hornet.png"></div>
+                <div class="item">
+                        <h5 class="center-align"><span style="color:#dc0000;font-family: fantasy;">Honda Hornet</span></h5>
+                    <img src="img/hornet.png"></div>
+                <div class="item">
+                        <h5 class="center-align"><span style="color:#dc0000;font-family: fantasy;">Honda Hornet</span></h5>
+                    <img src="img/hornet.png"></div>
+                <div class="item">
+                        <h5 class="center-align"><span style="color:#dc0000;font-family: fantasy;">Honda Hornet</span></h5>
+                    <img src="img/hornet.png"></div>
+                <div class="item">
+                        <h5 class="center-align"><span style="color:#dc0000;font-family: fantasy;">Honda Hornet</span></h5>
+                    <img src="img/hornet.png"></div>
             </div>
         </div>
     </div>
 
-    <div>
         <a href="#" class="topbtn">
             <i class="small material-icons" style="color:#dc0000">keyboard_arrow_up</i>
         </a>
@@ -253,32 +295,36 @@
 
 
     <footer class="page-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Bajra Automobiles</h5>
-                    <p class="grey-text text-lighten-4">
-                        <img src="img/logo1.png" style="width:40%;width: 40%;
-                                padding: 10px;
-                                border-radius: 20px;
-                                background-color: white;">
-                    </p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Social Links</h5>
-                    <ul style="display: inline-flex;">
-                        <li>
-                            <a href="https://www.facebook.com/Bajra-automobiles-PLtd-1385535045086537/" target="_blank">
-                                <img src="img/fb.png" style="height:50px;width:50px;"> </a>
-                        </li>
-                        <li>
-                            <a href="!">
-                                <img src="img/insta.png" style="height:50px;width:50px;"> </a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="center-align">
+                <h4 style="font-weight: 100;">Our Outlets</h4>
             </div>
-        </div>
+            <div class="row location" style="line-height: 2 !important;">
+                <div class="col l3 s12 m6 center-align">
+                    <ul>
+                    <li><i class="tiny material-icons">location_on</i>: Maharajgunj</li>
+                    <li><i class="tiny material-icons">contact_phone</i> : 01-4721364/01-4720326</li>
+                </ul>
+                </div>
+                <div class="col l3 s12 m6 center-align">
+                    <ul>
+                    <li><i class="tiny material-icons">location_on</i>: BudanilKantha</li>
+                    <li><i class="tiny material-icons">contact_phone</i> : 01-4372000</li>
+                </ul>
+                </div>
+                <div class="col l3 s12 m6 center-align">
+                    <ul>
+                    <li><i class="tiny material-icons">location_on</i>: Kalanki</li>
+                    <li><i class="tiny material-icons">contact_phone</i> : 01-4279429/01-4277201</li>
+                </ul>
+                </div>
+                <div class="col l3 s12 m6 center-align">
+                    <ul>
+                    <li><i class="tiny material-icons">location_on</i>: Pharping</li>
+                    <li><i class="tiny material-icons">contact_phone</i> : 01-4710686/01-4710687</li>
+                </ul>
+                </div>
+
+            </div>
         <div class="footer-copyright">
             <div class="container center-align">
                 © 2018 Bajra Automobiles.
@@ -286,14 +332,31 @@
             </div>
         </div>
     </footer>
-
-    <body <!--Import jQuery before materialize.js-->
+    </div>
+     <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript" src="js/materialize.js"></script>
         <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
         <script src="/node_modules/jquery/dist/jquery.js"></script>
-        <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+        <script src="jquery.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+            });
+            $('.loop').owlCarousel({
+            center: true,
+            items:2,
+            loop:true,
+            margin:10,
+            responsive:{
+                600:{
+                    items:2
+                }
+            }
+        });
+        </script>
         <script>
             (function () {
                 function id(v) { return document.getElementById(v); }
@@ -330,7 +393,7 @@
             }());
         </script>
         <script>
-            $(document).ready(function () {
+                        $(document).ready(function () {
                 $('.scrollspy').scrollSpy();
             });
 
@@ -345,15 +408,6 @@
 
 
             });
-            //     window.onscroll = function() {navcolr()};
-            // function navcolr() {
-            // if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-            //     document.getElementById("navcolr").style.backgroundColor = "white";
-
-            // } else {
-            //     document.getElementById("navcolr").style.backgroundColor = "transparent";
-            // }
-            // }
 
             window.onscroll = function () { scrollFunction() };
 
@@ -390,7 +444,7 @@
             jQuery(window).load(function () {
                 jQuery('#overlay').fadeOut();
             });
-
+    
 
         </script>
     </body>
