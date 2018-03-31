@@ -103,7 +103,7 @@
   text-align: center;
   position: fixed;
   right: 20px;
-  bottom: 20px;
+  bottom: 0px;
   display: none;
 }
 .menu {
@@ -266,6 +266,3 @@ demo a {
   background:#cc0001 !important;
 }
 
-red{
-:#cc0001;
-}
