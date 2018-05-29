@@ -13,7 +13,7 @@
   height: 100vh;
 }
 .prodview {
-  height: 30vh;
+  height: 60vh;
 }
 .head {
   margin: 20px !important;
@@ -74,7 +74,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: 1530px;
+  background-size: 1885px;
 }
 #products {
   margin-top: 20px;
