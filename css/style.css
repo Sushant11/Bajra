@@ -261,7 +261,18 @@ demo a {
 .social{
   padding-top: 6px !important;
 }
-
+.table-of-contents a {
+  display: inline-block;
+  font-weight: 500;
+  color: #cc0001;
+  font-size: 17px;
+  padding-left: 20px;
+  /* height: 1.5rem; */
+  transition: linear 300ms;
+  line-height: 1.5rem;
+  letter-spacing: .4;
+  display: inline-block;
+}
 .table-of-contents .social a:hover {
   color:none;
   padding-left: 20px;
@@ -272,3 +283,8 @@ demo a {
   background:#cc0001 !important;
 }
 
+.owl-carousel {
+  display: none;
+  width: 100%;
+  z-index: 0 !important;
+}
